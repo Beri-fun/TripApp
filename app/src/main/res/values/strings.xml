@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Localization App</string>
+    <string name="your_location">Your localization</string>
+    <string name="latitude">    </string>
+    <string name="longtitude">    </string>
+    <string name="latitude_text">Latitude:</string>
+    <string name="longtitude_text">Longtitude:</string>
+    <string name="get_location_button">Get location</string>
+    <string name="switch_location">Please enable your location</string>
+    <string name="btn_continue">Continue</string>
+    <string name="big_name">TripApp</string>
+    <string name="btn_ready_to_go">You’re all ready to go!</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_password">Password</string>
+    <string name="button_sign_in">Sign in</string>
+    <string name="button_sign_up">Sign up</string>
+    <string name="button_send">Send</string>
+    <string name="text_forgot_password">Forgot password?</string>
+    <string name="text_signin_message">Hello, sign in to your account</string>
+    <string name="text_signin_signup">Don\'t have an account? <b>Sign up</b></string>
+    <string name="text_signup_message">Hello, let\'s create your account</string>
+
+    <string name="text_forgot_password_title">Forgot password? No worries</string>
+    <string name="text_forgot_password_message">Enter your unique six-digit code \nto reset your password</string>
+
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">Welcome !</string>
+    <string name="login_failed">Login failed</string>
+    <string name="text_from_db" />
+    <string name="invalid_pass_username">Login failed. Invalid username or password</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Username</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="title_activity_wroclaw">Wroclaw</string>
+    <string name="select_your_game">Select your game</string>
+    <string name="continue_nointernet">Continue</string>
+    <string name="No_internet_connection">No Internet connection. Please turn it on.</string>
+    <string name="Wroclaw_progress">Progress:</string>
+
+    <string name="coming_soon">COMING SOON</string>
+    <string name="wroclaw">WROCŁAW \n theaters</string>
+    <string name="game_intro_text">In this quest you need to find nine places hidden in Wrocław city. For each place you will get a clue, for example a photo. Each time you will need to send your location in order to check if you have arrived at a correct place.\nYou can use a hint if needed.\nGood luck! :)</string>
+    <string name="game_intro_text_theaters">In this quest you need to find some places hidden in Wrocław city connected with word \"Theater\". For each place you will get a clue, for example a photo. Each time you will need to send your location in order to check if you have arrived at a correct place.\nYou can use a hint if needed.\nGood luck! :)</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_leaderboard">Leaderboard</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_wroclaw_theaters_scrolling">Wroclaw_theaters_scrolling</string>
+    <string name="title_activity_wroclaw_theaters">Wroclaw_theaters</string>
+</resources>

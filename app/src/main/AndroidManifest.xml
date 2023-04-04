@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Test2"
+        tools:targetApi="31">
+        <activity
+            android:name=".Wroclaw_theaters"
+            android:exported="false"
+            android:label="@string/title_activity_wroclaw"
+            android:theme="@style/Theme.Test2.NoActionBar" />
+        <activity
+            android:name=".User_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Leaderboard"
+            android:exported="false"
+            android:label="@string/title_activity_leaderboard"
+            android:theme="@style/Theme.Test2.NoActionBar" />
+        <activity
+            android:name=".Transparent"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name=".Loading"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.Translucent" />
+        <activity
+            android:name=".See_code"
+            android:exported="false" />
+        <activity
+            android:name=".Game_intro"
+            android:exported="false" />
+        <activity
+            android:name=".Game_intro_theaters"
+            android:exported="false" />
+        <activity
+            android:name="in.insideandroid.logintemplate.ResetPassword"
+            android:exported="false" />
+        <activity
+            android:name="com.example.Wroclaw_tasks.Task1"
+            android:exported="false" />
+        <activity
+            android:name=".Wroclaw"
+            android:exported="false"
+            android:label="@string/title_activity_wroclaw"
+            android:theme="@style/Theme.Test2.NoActionBar" />
+        <activity
+            android:name=".No_Internet"
+            android:exported="false" />
+        <activity
+            android:name=".Start"
+            android:exported="false" />
+        <activity
+            android:name=".Connection_DB"
+            android:exported="false" />
+        <activity
+            android:name="in.insideandroid.logintemplate.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name="in.insideandroid.logintemplate.ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name="in.insideandroid.logintemplate.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ready_to_go"
+            android:exported="false" />
+        <activity
+            android:name=".Select_game"
+            android:exported="false" />
+        <activity
+            android:name=".Allow_loc"
+            android:exported="false" />
+        <activity
+            android:name="com.example.splashscreeninandroid.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
