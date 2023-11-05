@@ -53,9 +53,6 @@
             android:name=".Game_intro_theaters"
             android:exported="false" />
         <activity
-            android:name="in.insideandroid.logintemplate.ResetPassword"
-            android:exported="false" />
-        <activity
             android:name="com.example.Wroclaw_tasks.Task1"
             android:exported="false" />
         <activity
@@ -71,15 +68,6 @@
             android:exported="false" />
         <activity
             android:name=".Connection_DB"
-            android:exported="false" />
-        <activity
-            android:name="in.insideandroid.logintemplate.SignUpActivity"
-            android:exported="false" />
-        <activity
-            android:name="in.insideandroid.logintemplate.ForgetPasswordActivity"
-            android:exported="false" />
-        <activity
-            android:name="in.insideandroid.logintemplate.LoginActivity"
             android:exported="false" />
         <activity
             android:name=".Ready_to_go"
